@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627349C9FE809BBE73AC1A6B /* Pods_AMBreadcrumbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE10C354C01C5C3919D5BC2 /* Pods_AMBreadcrumbs.framework */; };
+		A315FA5D2736264B0095EF70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA5C2736264B0095EF70 /* AppDelegate.m */; };
+		A315FA632736264B0095EF70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA622736264B0095EF70 /* ViewController.m */; };
+		A315FA662736264B0095EF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A315FA642736264B0095EF70 /* Main.storyboard */; };
+		A315FA682736264B0095EF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A315FA672736264B0095EF70 /* Assets.xcassets */; };
+		A315FA6B2736264B0095EF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A315FA692736264B0095EF70 /* LaunchScreen.storyboard */; };
+		A315FA6E2736264B0095EF70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA6D2736264B0095EF70 /* main.m */; };
+		A315FA782736264B0095EF70 /* AMBreadcrumbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA772736264B0095EF70 /* AMBreadcrumbsTests.m */; };
+		A315FA832736264B0095EF70 /* AMBreadcrumbsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA822736264B0095EF70 /* AMBreadcrumbsUITests.m */; };
+		A315FA9B273626660095EF70 /* AMBreadCrumbNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA92273626660095EF70 /* AMBreadCrumbNavBar.m */; };
+		A315FA9C273626660095EF70 /* AMBreadCrumbNavCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA94273626660095EF70 /* AMBreadCrumbNavCell.m */; };
+		A315FA9D273626660095EF70 /* UIViewController+AMBreadCrumbNav.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA98273626660095EF70 /* UIViewController+AMBreadCrumbNav.m */; };
+		A315FA9E273626660095EF70 /* NSArray+BreadcrumbNav.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA99273626660095EF70 /* NSArray+BreadcrumbNav.m */; };
+		A315FA9F273626660095EF70 /* AMBreadCrumbNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FA9A273626660095EF70 /* AMBreadCrumbNavController.m */; };
+		A315FAA2273627C30095EF70 /* UIView+AMContentExtensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FAA1273627C30095EF70 /* UIView+AMContentExtensionView.m */; };
+		A315FAA627362EB10095EF70 /* BreadcrumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FAA527362EB10095EF70 /* BreadcrumbViewController.m */; };
+		A315FAA927365B760095EF70 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A315FAA827365B760095EF70 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A315FA742736264B0095EF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A315FA502736264B0095EF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A315FA572736264B0095EF70;
+			remoteInfo = AMBreadcrumbs;
+		};
+		A315FA7F2736264B0095EF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A315FA502736264B0095EF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A315FA572736264B0095EF70;
+			remoteInfo = AMBreadcrumbs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184498AF4EB0D071B3867C18 /* Pods-AMBreadcrumbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMBreadcrumbs.debug.xcconfig"; path = "Target Support Files/Pods-AMBreadcrumbs/Pods-AMBreadcrumbs.debug.xcconfig"; sourceTree = "<group>"; };
+		32E59D89BEFDE8097D111FEE /* Pods-AMBreadcrumbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMBreadcrumbs.release.xcconfig"; path = "Target Support Files/Pods-AMBreadcrumbs/Pods-AMBreadcrumbs.release.xcconfig"; sourceTree = "<group>"; };
+		A315FA582736264B0095EF70 /* AMBreadcrumbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMBreadcrumbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A315FA5B2736264B0095EF70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A315FA5C2736264B0095EF70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A315FA612736264B0095EF70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A315FA622736264B0095EF70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A315FA652736264B0095EF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A315FA672736264B0095EF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A315FA6A2736264B0095EF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A315FA6C2736264B0095EF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A315FA6D2736264B0095EF70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A315FA732736264B0095EF70 /* AMBreadcrumbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBreadcrumbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A315FA772736264B0095EF70 /* AMBreadcrumbsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBreadcrumbsTests.m; sourceTree = "<group>"; };
+		A315FA792736264B0095EF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A315FA7E2736264B0095EF70 /* AMBreadcrumbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBreadcrumbsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A315FA822736264B0095EF70 /* AMBreadcrumbsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBreadcrumbsUITests.m; sourceTree = "<group>"; };
+		A315FA842736264B0095EF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A315FA91273626660095EF70 /* AMBreadCrumbNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBreadCrumbNavBar.h; sourceTree = "<group>"; };
+		A315FA92273626660095EF70 /* AMBreadCrumbNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBreadCrumbNavBar.m; sourceTree = "<group>"; };
+		A315FA93273626660095EF70 /* UIViewController+AMBreadCrumbNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMBreadCrumbNav.h"; sourceTree = "<group>"; };
+		A315FA94273626660095EF70 /* AMBreadCrumbNavCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBreadCrumbNavCell.m; sourceTree = "<group>"; };
+		A315FA95273626660095EF70 /* NSArray+BreadcrumbNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BreadcrumbNav.h"; sourceTree = "<group>"; };
+		A315FA96273626660095EF70 /* AMBreadCrumbNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBreadCrumbNavController.h; sourceTree = "<group>"; };
+		A315FA97273626660095EF70 /* AMBreadCrumbNavCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBreadCrumbNavCell.h; sourceTree = "<group>"; };
+		A315FA98273626660095EF70 /* UIViewController+AMBreadCrumbNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMBreadCrumbNav.m"; sourceTree = "<group>"; };
+		A315FA99273626660095EF70 /* NSArray+BreadcrumbNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BreadcrumbNav.m"; sourceTree = "<group>"; };
+		A315FA9A273626660095EF70 /* AMBreadCrumbNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBreadCrumbNavController.m; sourceTree = "<group>"; };
+		A315FAA0273627C30095EF70 /* UIView+AMContentExtensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AMContentExtensionView.h"; sourceTree = "<group>"; };
+		A315FAA1273627C30095EF70 /* UIView+AMContentExtensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AMContentExtensionView.m"; sourceTree = "<group>"; };
+		A315FAA427362EB10095EF70 /* BreadcrumbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreadcrumbViewController.h; sourceTree = "<group>"; };
+		A315FAA527362EB10095EF70 /* BreadcrumbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreadcrumbViewController.m; sourceTree = "<group>"; };
+		A315FAA727365B760095EF70 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A315FAA827365B760095EF70 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DAE10C354C01C5C3919D5BC2 /* Pods_AMBreadcrumbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMBreadcrumbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A315FA552736264B0095EF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627349C9FE809BBE73AC1A6B /* Pods_AMBreadcrumbs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA702736264B0095EF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA7B2736264B0095EF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBAB76ED2E46AFE5962C577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				184498AF4EB0D071B3867C18 /* Pods-AMBreadcrumbs.debug.xcconfig */,
+				32E59D89BEFDE8097D111FEE /* Pods-AMBreadcrumbs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A315FA4F2736264B0095EF70 = {
+			isa = PBXGroup;
+			children = (
+				A315FA5A2736264B0095EF70 /* AMBreadcrumbs */,
+				A315FA762736264B0095EF70 /* AMBreadcrumbsTests */,
+				A315FA812736264B0095EF70 /* AMBreadcrumbsUITests */,
+				A315FA592736264B0095EF70 /* Products */,
+				2BBAB76ED2E46AFE5962C577 /* Pods */,
+				D64094D2627EB8E67ACFB782 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A315FA592736264B0095EF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A315FA582736264B0095EF70 /* AMBreadcrumbs.app */,
+				A315FA732736264B0095EF70 /* AMBreadcrumbsTests.xctest */,
+				A315FA7E2736264B0095EF70 /* AMBreadcrumbsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A315FA5A2736264B0095EF70 /* AMBreadcrumbs */ = {
+			isa = PBXGroup;
+			children = (
+				A315FA90273626510095EF70 /* AMBreadcrumbs */,
+				A315FA5B2736264B0095EF70 /* AppDelegate.h */,
+				A315FA5C2736264B0095EF70 /* AppDelegate.m */,
+				A315FA612736264B0095EF70 /* ViewController.h */,
+				A315FA622736264B0095EF70 /* ViewController.m */,
+				A315FAA427362EB10095EF70 /* BreadcrumbViewController.h */,
+				A315FAA527362EB10095EF70 /* BreadcrumbViewController.m */,
+				A315FAA727365B760095EF70 /* TestViewController.h */,
+				A315FAA827365B760095EF70 /* TestViewController.m */,
+				A315FA642736264B0095EF70 /* Main.storyboard */,
+				A315FA672736264B0095EF70 /* Assets.xcassets */,
+				A315FA692736264B0095EF70 /* LaunchScreen.storyboard */,
+				A315FA6C2736264B0095EF70 /* Info.plist */,
+				A315FA6D2736264B0095EF70 /* main.m */,
+			);
+			path = AMBreadcrumbs;
+			sourceTree = "<group>";
+		};
+		A315FA762736264B0095EF70 /* AMBreadcrumbsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A315FA772736264B0095EF70 /* AMBreadcrumbsTests.m */,
+				A315FA792736264B0095EF70 /* Info.plist */,
+			);
+			path = AMBreadcrumbsTests;
+			sourceTree = "<group>";
+		};
+		A315FA812736264B0095EF70 /* AMBreadcrumbsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A315FA822736264B0095EF70 /* AMBreadcrumbsUITests.m */,
+				A315FA842736264B0095EF70 /* Info.plist */,
+			);
+			path = AMBreadcrumbsUITests;
+			sourceTree = "<group>";
+		};
+		A315FA90273626510095EF70 /* AMBreadcrumbs */ = {
+			isa = PBXGroup;
+			children = (
+				A315FA96273626660095EF70 /* AMBreadCrumbNavController.h */,
+				A315FA9A273626660095EF70 /* AMBreadCrumbNavController.m */,
+				A315FA91273626660095EF70 /* AMBreadCrumbNavBar.h */,
+				A315FA92273626660095EF70 /* AMBreadCrumbNavBar.m */,
+				A315FA97273626660095EF70 /* AMBreadCrumbNavCell.h */,
+				A315FA94273626660095EF70 /* AMBreadCrumbNavCell.m */,
+				A315FAA0273627C30095EF70 /* UIView+AMContentExtensionView.h */,
+				A315FAA1273627C30095EF70 /* UIView+AMContentExtensionView.m */,
+				A315FA95273626660095EF70 /* NSArray+BreadcrumbNav.h */,
+				A315FA99273626660095EF70 /* NSArray+BreadcrumbNav.m */,
+				A315FA93273626660095EF70 /* UIViewController+AMBreadCrumbNav.h */,
+				A315FA98273626660095EF70 /* UIViewController+AMBreadCrumbNav.m */,
+			);
+			path = AMBreadcrumbs;
+			sourceTree = "<group>";
+		};
+		D64094D2627EB8E67ACFB782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE10C354C01C5C3919D5BC2 /* Pods_AMBreadcrumbs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A315FA572736264B0095EF70 /* AMBreadcrumbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A315FA872736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbs" */;
+			buildPhases = (
+				C462977BDDD7893D11E4D694 /* [CP] Check Pods Manifest.lock */,
+				A315FA542736264B0095EF70 /* Sources */,
+				A315FA552736264B0095EF70 /* Frameworks */,
+				A315FA562736264B0095EF70 /* Resources */,
+				44AE657EDABBB89D78B9F837 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMBreadcrumbs;
+			productName = AMBreadcrumbs;
+			productReference = A315FA582736264B0095EF70 /* AMBreadcrumbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A315FA722736264B0095EF70 /* AMBreadcrumbsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A315FA8A2736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbsTests" */;
+			buildPhases = (
+				A315FA6F2736264B0095EF70 /* Sources */,
+				A315FA702736264B0095EF70 /* Frameworks */,
+				A315FA712736264B0095EF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A315FA752736264B0095EF70 /* PBXTargetDependency */,
+			);
+			name = AMBreadcrumbsTests;
+			productName = AMBreadcrumbsTests;
+			productReference = A315FA732736264B0095EF70 /* AMBreadcrumbsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A315FA7D2736264B0095EF70 /* AMBreadcrumbsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A315FA8D2736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbsUITests" */;
+			buildPhases = (
+				A315FA7A2736264B0095EF70 /* Sources */,
+				A315FA7B2736264B0095EF70 /* Frameworks */,
+				A315FA7C2736264B0095EF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A315FA802736264B0095EF70 /* PBXTargetDependency */,
+			);
+			name = AMBreadcrumbsUITests;
+			productName = AMBreadcrumbsUITests;
+			productReference = A315FA7E2736264B0095EF70 /* AMBreadcrumbsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A315FA502736264B0095EF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A315FA572736264B0095EF70 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A315FA722736264B0095EF70 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A315FA572736264B0095EF70;
+					};
+					A315FA7D2736264B0095EF70 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A315FA572736264B0095EF70;
+					};
+				};
+			};
+			buildConfigurationList = A315FA532736264B0095EF70 /* Build configuration list for PBXProject "AMBreadcrumbs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A315FA4F2736264B0095EF70;
+			productRefGroup = A315FA592736264B0095EF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A315FA572736264B0095EF70 /* AMBreadcrumbs */,
+				A315FA722736264B0095EF70 /* AMBreadcrumbsTests */,
+				A315FA7D2736264B0095EF70 /* AMBreadcrumbsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A315FA562736264B0095EF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315FA6B2736264B0095EF70 /* LaunchScreen.storyboard in Resources */,
+				A315FA682736264B0095EF70 /* Assets.xcassets in Resources */,
+				A315FA662736264B0095EF70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA712736264B0095EF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA7C2736264B0095EF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44AE657EDABBB89D78B9F837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMBreadcrumbs/Pods-AMBreadcrumbs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMBreadcrumbs/Pods-AMBreadcrumbs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMBreadcrumbs/Pods-AMBreadcrumbs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C462977BDDD7893D11E4D694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMBreadcrumbs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A315FA542736264B0095EF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315FA9B273626660095EF70 /* AMBreadCrumbNavBar.m in Sources */,
+				A315FAA2273627C30095EF70 /* UIView+AMContentExtensionView.m in Sources */,
+				A315FA9E273626660095EF70 /* NSArray+BreadcrumbNav.m in Sources */,
+				A315FA9F273626660095EF70 /* AMBreadCrumbNavController.m in Sources */,
+				A315FA632736264B0095EF70 /* ViewController.m in Sources */,
+				A315FA5D2736264B0095EF70 /* AppDelegate.m in Sources */,
+				A315FA6E2736264B0095EF70 /* main.m in Sources */,
+				A315FAA927365B760095EF70 /* TestViewController.m in Sources */,
+				A315FA9D273626660095EF70 /* UIViewController+AMBreadCrumbNav.m in Sources */,
+				A315FA9C273626660095EF70 /* AMBreadCrumbNavCell.m in Sources */,
+				A315FAA627362EB10095EF70 /* BreadcrumbViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA6F2736264B0095EF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315FA782736264B0095EF70 /* AMBreadcrumbsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A315FA7A2736264B0095EF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A315FA832736264B0095EF70 /* AMBreadcrumbsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A315FA752736264B0095EF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A315FA572736264B0095EF70 /* AMBreadcrumbs */;
+			targetProxy = A315FA742736264B0095EF70 /* PBXContainerItemProxy */;
+		};
+		A315FA802736264B0095EF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A315FA572736264B0095EF70 /* AMBreadcrumbs */;
+			targetProxy = A315FA7F2736264B0095EF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A315FA642736264B0095EF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A315FA652736264B0095EF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A315FA692736264B0095EF70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A315FA6A2736264B0095EF70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A315FA852736264B0095EF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A315FA862736264B0095EF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A315FA882736264B0095EF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184498AF4EB0D071B3867C18 /* Pods-AMBreadcrumbs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A315FA892736264B0095EF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E59D89BEFDE8097D111FEE /* Pods-AMBreadcrumbs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A315FA8B2736264B0095EF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMBreadcrumbs.app/AMBreadcrumbs";
+			};
+			name = Debug;
+		};
+		A315FA8C2736264B0095EF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMBreadcrumbs.app/AMBreadcrumbs";
+			};
+			name = Release;
+		};
+		A315FA8E2736264B0095EF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMBreadcrumbs;
+			};
+			name = Debug;
+		};
+		A315FA8F2736264B0095EF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = AMBreadcrumbsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aomei.AMBreadcrumbsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMBreadcrumbs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A315FA532736264B0095EF70 /* Build configuration list for PBXProject "AMBreadcrumbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315FA852736264B0095EF70 /* Debug */,
+				A315FA862736264B0095EF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A315FA872736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315FA882736264B0095EF70 /* Debug */,
+				A315FA892736264B0095EF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A315FA8A2736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315FA8B2736264B0095EF70 /* Debug */,
+				A315FA8C2736264B0095EF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A315FA8D2736264B0095EF70 /* Build configuration list for PBXNativeTarget "AMBreadcrumbsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A315FA8E2736264B0095EF70 /* Debug */,
+				A315FA8F2736264B0095EF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A315FA502736264B0095EF70 /* Project object */;
+}
